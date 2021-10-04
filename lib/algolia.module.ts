@@ -1,4 +1,4 @@
-import { Module, DynamicModule, Provider } from '@nestjs/common';
+import { Module, DynamicModule, Provider, Global } from '@nestjs/common';
 import {
   AlgoliaModuleOptions,
   AlgoliaModuleAsyncOptions,
@@ -7,6 +7,7 @@ import {
 import { createAlgoliaClient } from './algolia-client.provider';
 import { ALGOLIA_MODULE_OPTIONS } from './algolia.constants';
 
+@Global()
 @Module({})
 export class AlgoliaModule {
   static register(options: AlgoliaModuleOptions): DynamicModule {
