@@ -29,12 +29,12 @@
   "homepage": "https://github.com/fvilers/nestjs-algolia#readme",
   "peerDependencies": {
     "algoliasearch": "^4.0.0",
-    "@nestjs/common": "^8.0.0"
+    "@nestjs/common": "^9.0.0"
   },
   "devDependencies": {
-    "@nestjs/common": "^8.0.9",
-    "@nestjs/core": "^8.0.9",
-    "@nestjs/testing": "^8.0.9",
+    "@nestjs/common": "^9.0.0",
+    "@nestjs/core": "^9.0.0",
+    "@nestjs/testing": "^9.0.0",
     "@types/jest": "^27.0.2",
     "@types/node": "11.9.5",
     "algoliasearch": "^4.10.5",
