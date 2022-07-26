@@ -1,2 +1,0 @@
-export declare const ALGOLIA_CLIENT = 'ALGOLIA_CLIENT';
-export declare const ALGOLIA_MODULE_OPTIONS = 'ALGOLIA_MODULE_OPTIONS';
